@@ -1,0 +1,124 @@
+/******Base Style******/
+
+body {
+    font-family: 'Montserrat', serif;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+p {
+    font-size: 16px;
+}
+ul {
+    text-align: left;
+    padding: 0;
+}
+li {
+    color: #77a466;
+    line-height: 18px;
+    list-style: none;
+}
+/******Header******/
+
+header {
+    height: 110px;
+    margin: 0;
+    }
+header h1 {
+    float: left;
+    margin 0;
+    width: 590px;
+    padding: 39px 0 39px 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    text-transform: uppercase;
+    width: 600px;
+    text-align: right;
+    padding: 55px 0 39px 0;
+}
+nav ul li {
+    display: inline;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+/******Main******/
+
+img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+main h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #77a466;
+}
+main p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 1175px;
+}
+#menu {
+    float: left;
+    width: 380px;
+    height: 200px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
+}
+#reviews {
+    float: left;
+    width: 399px;
+    height: 200px;
+    padding: 20px 0 0 20px;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+#reviews p {
+    line-height: 21px;
+    width: 350px;
+}
+#contact {
+    float: left;
+    width: 379px;
+    height: 200px;
+    padding: 20px 0 0 20px;
+    margin-top: 20px;
+    line-height: 24px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/******Footer******/
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+footer span {
+    color: #77a466;
+    font-family: 'Lobster', serif;
+    text-transform: lowercase;
+}
